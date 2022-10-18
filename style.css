@@ -19,6 +19,7 @@
 }
 .grey-wave{
     filter: invert(99%) sepia(7%) saturate(60%) hue-rotate(154deg) brightness(114%) contrast(93%);
+    display: block;
 }
 .bottom-wave{
     transform: rotate(180deg);
