@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0%;
+    border: border-box;
+}
+a{
+    display: inline-block;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background: url("img/jumbo.png") center;
+    background-size: cover;
+    height: 26rem;
+}
+.bg-color-grey{
+    background-color: grey;
+}
+nav.main-nav{
+    width: 70%;
+    height: 5rem;
+    display: flex;
+    margin: 0.5rem 0 3rem 0;
+    justify-content: space-between;
+    align-items: center;
+    background-color: yellow;
+    border: 1px solid red;;
+}
+ul li{
+    display: inline;
+    color: white;    
+}
+button.light-button{
+    border-radius: 16px;
+    border: none;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+section.main-header{
+    width: 50%;
+    height: 20rem;
+    background-color: fuchsia;
+    border: 1px solid red;
+
+    margin-bottom: 2rem;
+}
+section.box-section{
+    width: 100%;
+    height: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.box{
+    width: 70%;
+    height: 25rem;
+    border: 1px solid red;
+    display: flex;
+}
+
+div.box-img{
+    width: 65%;
+    height: 100%;
+    background-color: blue;
+}
+
+div.box-text{
+    width: 35%;
+    height: 100%;
+    background-color: pink;
+}
+section.last-box-section{
+    width: 100%;
+    height: 35rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div.last-box-box{
+    width: 70%;
+    height: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+    border: 1px solid red;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background: #2C3E50;
+    background-size: cover;
+}
+section.main-footer{
+    width: 70%;
+    height: 25rem;
+    display: flex;
+    margin: 2rem 0;
+}
+div.big-link{
+    width: 30%;
+    height: 100%;
+    background-color: salmon;
+    border: 1px solid red;
+}
+div.small-link{
+    width: calc(70% / 4);
+    height: 100%;
+    background-color: #206694;
+    border: 1px solid red;
+}
+hr{
+    width: 70%;
+    height: .5px;
+    background-color: #206694;
+    border: none;
+}
+section.end-footer{
+    width: 70%;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: aquamarine;
+    margin: 1rem 0 3rem 0;
+    border: 1px solid red;
+}
+button.blue-button{
+    border-radius: 16px;
+    border: none;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    background-color: #206694;
+    color: white;
+}
