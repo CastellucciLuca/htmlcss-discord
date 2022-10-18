@@ -120,11 +120,15 @@ div.adventure-start{
     align-items: center;
     background-image: url(img/stars.svg);
     background-attachment: fixed;
-    background-position: center;
+    background-position: 24rem;
     background-repeat: no-repeat;
     margin: auto;
     padding-bottom: 10rem;
     padding-top: 10rem;
+}
+#bluebutton{
+    width: 100%;
+    margin-top: auto;
 }
 footer{
     display: flex;
