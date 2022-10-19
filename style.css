@@ -65,7 +65,7 @@ button.dark-button{
     padding: 0.5rem 1rem 0.5rem 1rem;
     cursor: pointer;
     background-color: #2C3E50;
-    color: white;
+    color: ;
 }
 section.main-header{
     width: 50%;
@@ -140,7 +140,6 @@ div.adventure-start{
     background-image: url(img/stars.svg);
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: top center;
     padding-top: 30px;
     padding-bottom: 30px;
 }
