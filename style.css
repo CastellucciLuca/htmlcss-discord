@@ -65,6 +65,7 @@ button.dark-button{
     padding: 0.5rem 1rem 0.5rem 1rem;
     cursor: pointer;
     background-color: #2C3E50;
+    color: white;
 }
 section.main-header{
     width: 50%;
